@@ -1,6 +1,8 @@
-libamiibo
+libamiibo.noimage
 ========
-amiibo™ parsing library
+amiibo™ parsing library (without images)
+This is a drop in replacement for libamiibo that will reduce the filesize substantially for projects that do not need images (command line apps, etc)
+
 
 Usage
 =====
@@ -31,6 +33,7 @@ LibAmiibo.Data.AmiiboTag amiiboTag = LibAmiibo.Data.AmiiboTag.FromNtagData(encry
 
 Special Thanks
 ==============
+- Benjamin Krämer for the libamiibo project that this is forked from. He deserves all the credit for any use of this library https://github.com/Falco20019/libamiibo
 - Lucas "MacGuffen" Romo for his great work with https://docs.google.com/spreadsheets/d/1WJ4HxS9hkLquq-ATt1Rq9mioH6RDgP3qQrtYVaOdimM
 - N3vin and CheatFreak for their great work with https://docs.google.com/spreadsheets/d/19E7pMhKN6x583uB6bWVBeaTMyBPtEAC-Bk59Y6cfgxA
 - The people over at 3dbrew.org for there work on http://3dbrew.org/wiki/Amiibo and http://3dbrew.org/wiki/Mii
